@@ -1,15 +1,11 @@
-import { Text, View } from "react-native";
+import { Host, Text, VStack } from "@expo/ui/swift-ui";
 
-export default function Index() {
+export default function ContentView() {
   return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <Text>Edit app/index.tsx to edit this screen.</Text>
-    </View>
+    <Host style={{ flex: 1 }}>
+      <VStack>
+        <Text>Hello, world!</Text>
+      </VStack>
+    </Host>
   );
 }
