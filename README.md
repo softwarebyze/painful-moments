@@ -1,3 +1,7 @@
+playing around and trying to make a new expo app look like a new swiftui app
+
+![alt text](side-by-side-swiftui-expo.png)
+
 # Welcome to your Expo app 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
